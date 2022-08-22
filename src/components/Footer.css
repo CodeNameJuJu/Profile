@@ -1,0 +1,44 @@
+.screen-fit-home{
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    right: 735px;
+    width:  80%;
+    min-height: 100%;
+}
+
+.center-again{
+    position: relative;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.image-pic{
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+
+}
+
+.background-body{
+    background-color: black;
+}
+
+.image-screen{
+    width: 100%;
+    height: 500px;
+}
+
+.body-text{
+    color: #1846db;
+}
+
+.body-text p{
+    color: white;
+}
+
+.padding-btm{
+    padding-bottom: 80px;
+}
