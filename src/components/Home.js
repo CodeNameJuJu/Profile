@@ -18,8 +18,8 @@ function Home() {
           <div class="container mt-3">
             <img src='Me.jpeg'  alt='#' class='rounded-circle float-start image-pic ' />
           </div>
-          <h1 class='body-text'>Julian Stone</h1>
-          <p>The purpose of this web profile is to introduce myself, 
+          <h1 class='body-text center-again'>Julian Stone</h1>
+          <p class="center-again">The purpose of this web profile is to introduce myself, 
             showcase the skills I have to offer and to simplify the process of getting in touch for possible job opportunities.
           </p>
         </div>
