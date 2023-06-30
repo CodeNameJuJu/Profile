@@ -6,7 +6,7 @@ function Home() {
   window.scrollTo(0, 0);
   
   return (
-    <div class='bg-dark'>
+    <div class='bg-black'>
       <div class="screen-fit-home">
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src="Glitch.mp4" type="video/mp4"/>
