@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Projects() {
   
-  window. scrollTo(0, 0);
+  window.scrollTo(0, 0);
   
   return (
   <body class='body-text center-again'>
@@ -52,16 +52,16 @@ function Projects() {
           <td title='Date'></td>
         </tr>
         <tr>
-          <td title='Repository Name'>BootSequence</td>
-          <td title='C#'>C#(Console)</td>
-          <td title='URL'><a href='https://github.com/Fishpuke/BootSequence' title='Github URL'><i class='bx bx-link'></i></a></td>
-          <td title='Date'>2021/08/30</td>
-        </tr>
-        <tr>
           <td title='Repository Name'>Profile</td>
           <td title='C#'>React.js</td>
           <td title='URL'><a href='https://github.com/Fishpuke/Profile' title='Github URL'><i class='bx bx-link'></i></a></td>
           <td title='Date'>2022/05/23</td>
+        </tr>
+        <tr>
+          <td title='Repository Name'>Password Generator</td>
+          <td title='C#'>Python</td>
+          <td title='URL'><a href='https://github.com/CodeNameJuJu/PasswordGenerator/' title='Github URL'><i class='bx bx-link'></i></a></td>
+          <td title='Date'>2022/08/31</td>
         </tr>
       </tbody>
     </table>

@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Home() {
   
-  window. scrollTo(0, 0);
+  window.scrollTo(0, 0);
   
   return (
     <div class='bg-black'>

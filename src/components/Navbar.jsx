@@ -29,12 +29,7 @@ function Navbar() {
           <Link class="nav-link" to='/contact' title='Contact' >
             <i class='bx bx-envelope bx-sm' ></i>
          </Link>
-        </li>  
-        <li class="nav-item">
-          <Link class="nav-link" to='/experiment' title='Experiment' >
-            <i class='bx bx-game bx-sm' ></i>
-         </Link>
-        </li>  
+        </li>   
       </ul>
     </div>
   </div>

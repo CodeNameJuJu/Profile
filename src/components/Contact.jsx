@@ -20,8 +20,8 @@ const Contact = () => {
     );
   }
 
-  window. scrollTo(0, 0);
-
+  window.scrollTo(0, 0);
+  
   return (
   <body class='body-text center-again'>
     <div>
@@ -91,6 +91,5 @@ const Contact = () => {
   </body>
   );
 }
-
 
 export default Contact;
