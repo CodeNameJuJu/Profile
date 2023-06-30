@@ -35,7 +35,7 @@ export const Contact = () => {
           <tr>
             <td><a href='mailto:julianstone98@gmail.com' title='Email Link'>julianstone98@gmail.com</a></td>
             <td><a href='https://www.linkedin.com/in/julian-stone-b80837215/' title='Linkedin URL'>Julian Stone</a></td>
-            <td><a href='https://github.com/Fishpuke' title='Github URL'>CodeNameJuJu</a></td>
+            <td><a href='https://github.com/CodeNameJuJu' title='Github URL'>CodeNameJuJu</a></td>
           </tr>
         </tbody>
       </table>
