@@ -8,7 +8,7 @@ function Projects() {
   return (
   <body class='body-text center-again'>
       <div class="center-again container mt-3">
-    <h2>Project</h2>
+    <h2>Projects</h2>
     <p>Find a list of projects and links to respective projects below:</p>     
 
     <table class="table table-dark table-striped table-active table-hover table-responsive shadow p-3 mb-5 rounded">
