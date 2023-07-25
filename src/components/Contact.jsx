@@ -17,9 +17,11 @@ export const Contact = () => {
             })
     };
 
+    window.scrollTo(0, 0);
+
   return (
   <body class='body-text center-again'>
-    <div>
+    <div class="center-again container mt-3">
       <h2>Contact Details</h2>
       <p>All contact details and relevant social medias can be found below:</p>
 
@@ -40,27 +42,33 @@ export const Contact = () => {
         </tbody>
       </table>
     </div>
-    <form  ref={form} onSubmit={sendEmail}>
-      <div className="mb-3 pt-0">
-          <input type="text" name="user_name" placeholder="Your Name"
-                  className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-          />
+    <div className="center-again container">
+      <div className="row center-again">
+        <div className="center-again">
+          <form  ref={form} onSubmit={sendEmail}>
+            <div className="mb-3 pt-0">
+                <input type="text" name="user_name" placeholder="Your Name"
+                        className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                />
+            </div>
+            <div className="mb-3 pt-0">
+                <input type="email" name="user_email" placeholder="Your email address"
+                        className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                />
+            </div>
+            <div className="mb-3 pt-0">
+                <textarea name="message" placeholder="Your message"
+                          className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                ></textarea>
+            </div>
+            <br />
+            <div className="mb-3 pt-0">
+                <button className = "btn btn-primary" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div className="mb-3 pt-0">
-          <input type="email" name="user_email" placeholder="Your email address"
-                  className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-          />
-      </div>
-      <div className="mb-3 pt-0">
-          <textarea name="message" placeholder="Your message"
-                    className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-          ></textarea>
-      </div>
-      <br />
-      <div className="mb-3 pt-0">
-          <button className = "btn btn-primary" type="submit">Send Message</button>
-      </div>
-    </form>
+    </div>
   </body>
   );
 }

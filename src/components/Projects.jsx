@@ -14,10 +14,10 @@ function Projects() {
     <table class="table table-dark table-striped table-active table-hover table-responsive shadow p-3 mb-5 rounded">
       <thead class='table-dark'>
         <tr>
-          <th title='Repository Name'><i class='bx bx-git-repo-forked' ></i>Repository Name</th>
-          <th title='Language used'><i class='bx bx-code-block'></i>Language used</th>
-          <th title='URL'><i class='bx bx-link'></i>URL</th>
-          <th title='Date started'><i class='bx bxs-calendar'></i>Date started</th>
+          <th title='Repository Name'><i class='bx bx-git-repo-forked' ></i> Repository Name</th>
+          <th title='Language used'><i class='bx bx-code-block'></i> Language/Framework</th>
+          <th title='URL'><i class='bx bx-link'></i> URL</th>
+          <th title='Date started'><i class='bx bxs-calendar'></i> Date started</th>
         </tr>
       </thead>
       <tbody>
