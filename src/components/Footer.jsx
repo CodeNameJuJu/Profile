@@ -13,7 +13,7 @@ class DownloadLink extends React.Component {
   class CVComponent extends React.Component {
     render() {
         return (
-            <DownloadLink src='CV.pdf' target="_blank">Click Here</DownloadLink>
+            <DownloadLink src='CV.pdf' target="_blank">Download CV</DownloadLink>
         )
     }
   }
@@ -21,7 +21,7 @@ class DownloadLink extends React.Component {
   class CertComponent extends React.Component {
     render() {
         return (
-            <DownloadLink src='CTU.pdf' target="_blank">Click Here</DownloadLink>
+            <DownloadLink src='CTU.pdf' target="_blank">Download Certificate</DownloadLink>
         )
     }
   }
