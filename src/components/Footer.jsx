@@ -72,7 +72,7 @@ function Footer() {
         </Link>
       </li>
     </ul>
-    <p class="text-center text-muted">© 2022 Stone Software, All rights reserved.</p>
+    <p class="text-center text-muted">© 2022 Julian Stone, All rights reserved.</p>
   </footer>
   );
 }
