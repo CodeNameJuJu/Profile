@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import './Footer.css';
+import './Main.css';
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
