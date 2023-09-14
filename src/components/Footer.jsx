@@ -28,7 +28,7 @@ class DownloadLink extends React.Component {
 
 function Footer() {
   return (
-    <footer class="py-3 my-4 bg-dark">
+    <footer class="py-3 my-4 bg-dark container-fluid">
 
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" title='Documents' data-bs-target="#myModal">
       Documents

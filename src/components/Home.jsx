@@ -6,7 +6,7 @@ function Home() {
   window.scrollTo(0, 0);
   
   return (
-    <div >
+    <div class='container-fluid'>
       <div class='center-again'>
       <div class='bg-dark'>
         <div class="mt-4 p-5 text-white rounded">

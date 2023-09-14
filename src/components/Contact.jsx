@@ -20,8 +20,8 @@ export const Contact = () => {
     window.scrollTo(0, 0);
 
   return (
-  <body class='body-text center-again'>
-    <div class="center-again container mt-3">
+  <body class='body-text center-again container-fluid'>
+    <div class="center-again mt-3">
       <h2>Contact Details</h2>
       <p>All contact details and relevant social medias can be found below:</p>
 
@@ -37,9 +37,9 @@ export const Contact = () => {
         <tbody>
           <tr>
             <td><a href='mailto:julianstone98@gmail.com' title='Email Link'>julianstone98@gmail.com</a></td>
-            <td><a href='https://www.linkedin.com/in/julian-stone-b80837215/' title='Linkedin URL'>Julian Stone</a></td>
-            <td><a href='https://github.com/CodeNameJuJu' title='Github URL'>CodeNameJuJu</a></td>
-            <td><a href='https://www.codewars.com/users/CodeNameJuJu' title='Github URL'>CodeNameJuJu</a></td>
+            <td><a href='https://www.linkedin.com/in/julian-stone-b80837215/' title='Linkedin URL'>Julian Stone(Linkedin)</a></td>
+            <td><a href='https://github.com/CodeNameJuJu' title='Github URL'>CodeNameJuJu(Github)</a></td>
+            <td><a href='https://www.codewars.com/users/CodeNameJuJu' title='Github URL'>CodeNameJuJu(Codewars)</a></td>
           </tr>
         </tbody>
       </table>
