@@ -24,12 +24,6 @@ function Home() {
             <div class="carousel-item active">
               <img src="carousel3.jpg" class="d-block w-100 image-screen" alt="#"/>
             </div>
-            <div class="carousel-item">
-              <img src="carousel2.jpg" class="d-block w-100 image-screen" alt="#"/>
-            </div>
-            <div class="carousel-item">
-              <img src="carousel1.jpg" class="d-block w-100 image-screen" alt="#"/>
-            </div>
           </div>
         </div>
     
