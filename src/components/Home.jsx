@@ -52,7 +52,7 @@ function Home() {
       <div class='body-text'>
         <h4 class='center-again'>
           <br/>
-          Julian Stone: About me
+          Julian Stone - About me
           <br/>
         </h4>
         <p class='center-again padding-btm'>
