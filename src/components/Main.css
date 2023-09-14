@@ -1,9 +1,7 @@
-.screen-fit-home{
-    position: absolute;
-    text-align: center;
-    top: 120px;
-    width:  100%;
-    min-height: 100%;
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .center-again{

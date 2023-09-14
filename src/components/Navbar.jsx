@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
 
   return (
-<div class='bg-black sticky-top'>
+<div class='sticky-top'>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
   <div class="container-fluid">
       <Link class="navbar-brand" to='/' title='Web Profile: Julian Stone'>

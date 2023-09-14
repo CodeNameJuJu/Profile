@@ -6,12 +6,7 @@ function Home() {
   window.scrollTo(0, 0);
   
   return (
-    <div class='bg-black'>
-      <div class="screen-fit-home">
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="Glitch.mp4" type="video/mp4"/>
-        </video>
-      </div>
+    <div>
       <div class='center-again'>
       <div class='bg-dark'>
         <div class="mt-4 p-5 text-white rounded">
@@ -24,7 +19,7 @@ function Home() {
           </p>
         </div>
 
-      <div id="demo" class="carousel slide background-body " data-bs-ride="carousel">
+      <div id="demo" class="carousel slide background-body bg-dark" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -32,13 +27,13 @@ function Home() {
         </div>
         <div class="carousel-inner image-screen">
           <div class="carousel-item active">
-            <img src="Image4.jpg" alt="Los Angeles" class="d-block image-screen" />
+            <img src="Image4.jpg" alt="#" class="d-block image-screen" />
           </div>
           <div class="carousel-item">
-           <img src="Image6.jpg" alt="Chicago" class="d-block image-screen" />
+           <img src="Image6.jpg" alt="#" class="d-block image-screen" />
           </div>
           <div class="carousel-item">
-            <img src="Image7.jpg" alt="New York" class="d-block image-screen" />
+            <img src="Image7.jpg" alt="#" class="d-block image-screen" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
