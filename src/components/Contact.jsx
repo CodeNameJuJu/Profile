@@ -31,6 +31,7 @@ export const Contact = () => {
             <th title='Email'><i class='bx bxs-envelope' ></i>Email</th>
             <th title='Linkedin'><i class='bx bxl-linkedin-square'></i>Linkedin</th>
             <th title='Github'><i class='bx bxl-github' ></i>Github</th>
+            <th title='Codewars'><i class='bx bxs-invader'></i>Codewars</th>
           </tr>
         </thead>
         <tbody>
@@ -38,6 +39,7 @@ export const Contact = () => {
             <td><a href='mailto:julianstone98@gmail.com' title='Email Link'>julianstone98@gmail.com</a></td>
             <td><a href='https://www.linkedin.com/in/julian-stone-b80837215/' title='Linkedin URL'>Julian Stone</a></td>
             <td><a href='https://github.com/CodeNameJuJu' title='Github URL'>CodeNameJuJu</a></td>
+            <td><a href='https://www.codewars.com/users/CodeNameJuJu' title='Github URL'>CodeNameJuJu</a></td>
           </tr>
         </tbody>
       </table>
