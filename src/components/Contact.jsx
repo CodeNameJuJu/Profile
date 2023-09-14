@@ -36,10 +36,10 @@ export const Contact = () => {
         </thead>
         <tbody>
           <tr>
-            <td><a href='mailto:julianstone98@gmail.com' title='Email Link'>julianstone98@gmail.com</a></td>
-            <td><a href='https://www.linkedin.com/in/julian-stone-b80837215/' title='Linkedin URL'>Julian Stone(Linkedin)</a></td>
-            <td><a href='https://github.com/CodeNameJuJu' title='Github URL'>CodeNameJuJu(Github)</a></td>
-            <td><a href='https://www.codewars.com/users/CodeNameJuJu' title='Github URL'>CodeNameJuJu(Codewars)</a></td>
+            <td><a href='mailto:julianstone98@gmail.com' target="_blank" rel="noopener noreferrer" title='Email Link'>julianstone98@gmail.com</a></td>
+            <td><a href='https://www.linkedin.com/in/julian-stone-b80837215/' target="_blank" rel="noopener noreferrer" title='Linkedin URL'>Julian Stone(Linkedin)</a></td>
+            <td><a href='https://github.com/CodeNameJuJu'  target="_blank" rel="noopener noreferrer" title='Github URL'>CodeNameJuJu(Github)</a></td>
+            <td><a href='https://www.codewars.com/users/CodeNameJuJu' target="_blank" rel="noopener noreferrer" title='Github URL'>CodeNameJuJu(Codewars)</a></td>
           </tr>
         </tbody>
       </table>
