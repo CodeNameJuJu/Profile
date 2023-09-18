@@ -58,6 +58,12 @@ function Projects() {
           <td title='Date'>2022/05/23</td>
         </tr>
         <tr>
+          <td title='Repository Name'>Logichem</td>
+          <td title='C#'>React.js</td>
+          <td title='URL'><a href='https://github.com/CodeNameJuJu/Logichem' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
+          <td title='Date'>2022/08/22</td>
+        </tr>
+        <tr>
           <td title='Repository Name'>Password Generator</td>
           <td title='C#'>Python</td>
           <td title='URL'><a href='https://github.com/CodeNameJuJu/PasswordGenerator/' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
