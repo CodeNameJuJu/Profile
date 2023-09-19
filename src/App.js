@@ -12,21 +12,17 @@ from 'react-router-dom';
 function App() {
 
   return (
-    <div>
       <BrowserRouter>
         <Navbar />
-        <div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </div>
         <footer class="py-3 my-4 bg-dark text-center">
           <Footer />
         </footer>  
       </BrowserRouter>
-    </div>
   );
 }
 

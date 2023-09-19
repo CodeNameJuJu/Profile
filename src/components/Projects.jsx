@@ -16,6 +16,8 @@ function MyProjects({repo, lang, link, date}) {
 
 export default function Projects() {
 
+  window.scrollTo(0, 0);
+
   return (
     <body class='body-text center-again container-fluid'>
       <div class="center-again mt-3">
