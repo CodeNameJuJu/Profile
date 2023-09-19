@@ -38,15 +38,15 @@ body {
 
 .image-pic {
 	position: relative;
-	bottom: 40px;
-	right: 40px;
+	bottom: 30px;
+	right: 30px;
 	height: 175px;
 	width: 130px;
 
 }
 
 .image-screen {
-	height: 800px;
+	height: 750px;
 }
 
 .background-body {
