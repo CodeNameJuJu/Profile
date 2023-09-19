@@ -8,7 +8,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_y9k7a7e', 'template_vuclici', form.current, 'PrZ7kEJQwuAOirfKf')
+    emailjs.sendForm({SERVICE_ID}, {TEMPLATE_ID}, form.current, {PUBLIC_KEY})
       .then((result) => {
         alert('message sent successfully...');
         console.log(result.text);
