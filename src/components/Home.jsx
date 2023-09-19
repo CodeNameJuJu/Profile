@@ -6,9 +6,9 @@ export default function Home() {
   window.scrollTo(0, 0);
 
   return (
-    <div class='container-fluid'>
+    <div class='container-fluid col-9'>
       <div class='center-again'>
-        <div class='bg-dark'>
+        <div class='bg-dark rounded'>
           <div class="mt-4 p-5 text-white rounded">
             <div class="container mt-3">
               <img src='Me.jpeg' alt='#' class='rounded-circle float-start image-pic ' />

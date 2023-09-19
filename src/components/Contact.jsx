@@ -32,8 +32,8 @@ export const Contact = () => {
   window.scrollTo(0, 0);
 
   return (
-    <body class='body-text center-again container-fluid'>
-      <div class="center-again mt-3">
+    <div>
+      <div class="center-again text-white mt-3">
         <h2>Contact Details</h2>
         <p>All contact details and relevant social medias can be found below:</p>
 
@@ -84,7 +84,7 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 }
 

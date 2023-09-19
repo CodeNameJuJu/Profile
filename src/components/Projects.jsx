@@ -19,8 +19,7 @@ export default function Projects() {
   window.scrollTo(0, 0);
 
   return (
-    <body class='body-text center-again container-fluid'>
-      <div class="center-again mt-3">
+      <div class="center-again text-white mt-3">
         <h2>Projects</h2>
         <p>Find a list of projects and links to respective projects below:</p>
 
@@ -85,6 +84,5 @@ export default function Projects() {
           </tbody>
         </table>
       </div>
-    </body>
   );
 }
