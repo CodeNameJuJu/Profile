@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 
-function Home() {
+export default function Home() {
 
   window.scrollTo(0, 0);
 
@@ -62,5 +62,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

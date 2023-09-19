@@ -26,7 +26,7 @@ class CertComponent extends React.Component {
   }
 }
 
-function Footer() {
+export default function Footer() {
   return (
     <footer class="py-3 my-4 bg-dark">
 
@@ -76,5 +76,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

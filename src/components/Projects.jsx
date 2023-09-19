@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 
-function Projects() {
+export default function Projects() {
 
   window.scrollTo(0, 0);
 
@@ -75,5 +75,3 @@ function Projects() {
     </body>
   );
 }
-
-export default Projects;
