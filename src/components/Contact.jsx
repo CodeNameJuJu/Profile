@@ -8,10 +8,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm({process.env.REACT_APP_SERVICE_ID}, 
-                     {process.env.REACT_APP_TEMPLATE_ID}, 
-                     form.current, 
-                     {process.env.REACT_APP_PUBLIC_KEY})
+    emailjs.sendForm('service_y9k7a7e', 'template_vuclici', form.current, 'PrZ7kEJQwuAOirfKf')
       .then((result) => {
         alert('message sent successfully...');
         console.log(result.text);
