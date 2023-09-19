@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, #417ee7, #23bad5, #37c087, #53dd5f);
+	background: linear-gradient(-45deg, #6b4ae2, #2522d1, #417ee7, #23bad5);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
@@ -37,16 +37,31 @@ body {
 }
 
 .image-pic {
-	position: relative;
-	bottom: 30px;
-	right: 30px;
 	height: 175px;
 	width: 130px;
+}
 
+div.item {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	width: 120px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+}
+
+.caption {
+	display: block;
 }
 
 .image-screen {
-	height: 750px;
+	border-radius: 25px;
+	height: 1150px;
+	width: 105%
 }
 
 .background-body {
@@ -58,10 +73,121 @@ body {
 	padding-bottom: 80px;
 }
 
+@media only screen and (min-width: 601px) {
+	div.example {
+		font-size: 80px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+
+	div.example {
+		font-size: 30px;
+	}
+
+	.col-s-1 {
+		width: 8.33%;
+	}
+
+	.col-s-2 {
+		width: 16.66%;
+	}
+
+	.col-s-3 {
+		width: 25%;
+	}
+
+	.col-s-4 {
+		width: 33.33%;
+	}
+
+	.col-s-5 {
+		width: 41.66%;
+	}
+
+	.col-s-6 {
+		width: 50%;
+	}
+
+	.col-s-7 {
+		width: 58.33%;
+	}
+
+	.col-s-8 {
+		width: 66.66%;
+	}
+
+	.col-s-9 {
+		width: 75%;
+	}
+
+	.col-s-10 {
+		width: 83.33%;
+	}
+
+	.col-s-11 {
+		width: 91.66%;
+	}
+
+	.col-s-12 {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	.col-1 {
+		width: 8.33%;
+	}
+
+	.col-2 {
+		width: 16.66%;
+	}
+
+	.col-3 {
+		width: 25%;
+	}
+
+	.col-4 {
+		width: 33.33%;
+	}
+
+	.col-5 {
+		width: 41.66%;
+	}
+
+	.col-6 {
+		width: 50%;
+	}
+
+	.col-7 {
+		width: 58.33%;
+	}
+
+	.col-8 {
+		width: 66.66%;
+	}
+
+	.col-9 {
+		width: 75%;
+	}
+
+	.col-10 {
+		width: 83.33%;
+	}
+
+	.col-11 {
+		width: 91.66%;
+	}
+
+	.col-12 {
+		width: 100%;
+	}
+}
+
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px) {
 
-	/* Force table to not be like tables anymore */
 	table,
 	thead,
 	tbody,
@@ -71,7 +197,6 @@ body {
 		display: block;
 	}
 
-	/* Hide table headers (but not display: none;, for accessibility) */
 	thead tr {
 		position: absolute;
 		top: -9999px;
@@ -83,16 +208,13 @@ body {
 	}
 
 	td {
-		/* Behave  like a "row" */
 		border: none;
 		position: relative;
 		padding-left: 50%;
 	}
 
 	td:before {
-		/* Now like a table header */
 		position: absolute;
-		/* Top/left values mimic padding */
 		top: 6px;
 		left: 6px;
 		width: 45%;
@@ -102,6 +224,23 @@ body {
 
 	.image-screen {
 		height: 40%;
+	}
+
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	.image-screen{
+		visibility: hidden;
+	}
+
+	.body-text{
+		width: 200%;
+	}
+
+	.image-pic{
+		height: 350px;
+		width: 260px;
 	}
 
 }
