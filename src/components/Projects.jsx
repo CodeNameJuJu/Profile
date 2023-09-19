@@ -23,49 +23,49 @@ function Projects() {
           <tbody>
             <tr>
               <td title='Repository Name'><strong>School Projects</strong></td>
-              <td title='C#'></td>
+              <td title='Language used'></td>
               <td title='URL'></td>
               <td title='Date'></td>
             </tr>
             <tr>
               <td title='Repository Name'>VacineRegRepo</td>
-              <td title='C#'>SQL, C#(form)</td>
+              <td title='Language used'>SQL, C#(form)</td>
               <td title='URL'><a href='https://github.com/Fishpuke/VaccineRegRepo' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
               <td title='Date'>2021/08/27</td>
             </tr>
             <tr>
               <td title='Repository Name'>BMICalculator</td>
-              <td title='C#'>SQL, C#(Form)</td>
+              <td title='Language used'>SQL, C#(Form)</td>
               <td title='URL'><a href='https://github.com/Fishpuke/BMICalculator' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
               <td title='Date'>2021/09/04</td>
             </tr>
             <tr>
               <td title='Repository Name'>PRG522_Summative</td>
-              <td title='C#'>C#(MVC)</td>
+              <td title='Language used'>C#(MVC)</td>
               <td title='URL'><a href='https://github.com/Fishpuke/PRG522_Summative' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
               <td title='Date'>2021/09/15</td>
             </tr>
             <tr>
               <td title='Repository Name'><strong>Personal Projects</strong></td>
-              <td title='C#'></td>
+              <td title='Language used'></td>
               <td title='URL'></td>
               <td title='Date'></td>
             </tr>
             <tr>
               <td title='Repository Name'>Profile</td>
-              <td title='C#'>React.js</td>
+              <td title='Language used'>React.js</td>
               <td title='URL'><a href='https://github.com/Fishpuke/Profile' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
               <td title='Date'>2022/05/23</td>
             </tr>
             <tr>
               <td title='Repository Name'>Logichem</td>
-              <td title='C#'>React.js</td>
+              <td title='Language used'>React.js</td>
               <td title='URL'><a href='https://github.com/CodeNameJuJu/Logichem' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
               <td title='Date'>2022/08/22</td>
             </tr>
             <tr>
               <td title='Repository Name'>Password Generator</td>
-              <td title='C#'>Python</td>
+              <td title='Language used'>Python</td>
               <td title='URL'><a href='https://github.com/CodeNameJuJu/PasswordGenerator/' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
               <td title='Date'>2022/08/31</td>
             </tr>
