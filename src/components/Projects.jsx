@@ -1,9 +1,20 @@
 import React from 'react';
 import './Main.css';
 
-export default function Projects() {
+function MyProjects({repo, lang, link, date}) {
+  return (
 
-  window.scrollTo(0, 0);
+    <tr>
+      <td title='Repository Name'>{repo}</td>
+      <td title='Language used'>{lang}</td>
+      <td title='URL'><a href={link} target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
+      <td title='Date'>{date}</td>
+    </tr>
+
+  );
+}
+
+export default function Projects() {
 
   return (
     <body class='body-text center-again container-fluid'>
@@ -27,48 +38,48 @@ export default function Projects() {
               <td title='URL'></td>
               <td title='Date'></td>
             </tr>
-            <tr>
-              <td title='Repository Name'>VacineRegRepo</td>
-              <td title='Language used'>SQL, C#(form)</td>
-              <td title='URL'><a href='https://github.com/Fishpuke/VaccineRegRepo' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
-              <td title='Date'>2021/08/27</td>
-            </tr>
-            <tr>
-              <td title='Repository Name'>BMICalculator</td>
-              <td title='Language used'>SQL, C#(Form)</td>
-              <td title='URL'><a href='https://github.com/Fishpuke/BMICalculator' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
-              <td title='Date'>2021/09/04</td>
-            </tr>
-            <tr>
-              <td title='Repository Name'>PRG522_Summative</td>
-              <td title='Language used'>C#(MVC)</td>
-              <td title='URL'><a href='https://github.com/Fishpuke/PRG522_Summative' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
-              <td title='Date'>2021/09/15</td>
-            </tr>
+            <MyProjects 
+              repo={'VacineRegRepo'}
+              lang={'SQL, C#(form)'}
+              link={'https://github.com/CodeNameJuJu/VaccineRegRepo'}
+              date={'2021/08/27'}
+            />
+            <MyProjects 
+              repo={'BMICalculator'}
+              lang={'SQL, C#(Form)'}
+              link={'https://github.com/CodeNameJuJu/BMICalculator'}
+              date={'2021/09/04'}
+            />
+            <MyProjects 
+              repo={'PRG522_Summative'}
+              lang={'C#(MVC)'}
+              link={'https://github.com/CodeNameJuJu/PRG522_Summative'}
+              date={'2021/09/15'}
+            />
             <tr>
               <td title='Repository Name'><strong>Personal Projects</strong></td>
               <td title='Language used'></td>
               <td title='URL'></td>
               <td title='Date'></td>
             </tr>
-            <tr>
-              <td title='Repository Name'>Profile</td>
-              <td title='Language used'>React.js</td>
-              <td title='URL'><a href='https://github.com/Fishpuke/Profile' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
-              <td title='Date'>2022/05/23</td>
-            </tr>
-            <tr>
-              <td title='Repository Name'>Logichem</td>
-              <td title='C#'>React.js</td>
-              <td title='URL'><a href='https://github.com/CodeNameJuJu/Logichem' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
-              <td title='Date'>2022/08/22</td>
-            </tr>
-            <tr>
-              <td title='Repository Name'>Password Generator</td>
-              <td title='C#'>Python</td>
-              <td title='URL'><a href='https://github.com/CodeNameJuJu/PasswordGenerator/' target="_blank" rel="noopener noreferrer" title='Github URL'><i class='bx bx-link'></i></a></td>
-              <td title='Date'>2022/08/31</td>
-            </tr>
+            <MyProjects
+              repo={'Profile'}
+              lang={'React.js'}
+              link={'https://github.com/CodeNameJuJu/Profile'}
+              date={'2022/05/23'}
+            />
+            <MyProjects
+              repo={'Logichem'}
+              lang={'React.js'}
+              link={'https://github.com/CodeNameJuJu/Logichem'}
+              date={'2022/08/22'}
+            />
+            <MyProjects
+              repo={'Password Generator'}
+              lang={'Python'}
+              link={'https://github.com/CodeNameJuJu/PasswordGenerator'}
+              date={'2022/08/31'}
+            />
           </tbody>
         </table>
       </div>
