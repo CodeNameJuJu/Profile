@@ -21,6 +21,10 @@ body {
 
 }
 
+.image-screen{
+	height: 800px;
+}
+
 .background-body {
 	background-color: black;
 }
