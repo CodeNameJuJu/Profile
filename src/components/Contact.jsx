@@ -64,7 +64,6 @@ export const Contact = () => {
                 type={"text"}
                 name={"user_name"}
                 place={"Your Name"}
-
               />
               <Form
                 type={"email"}
