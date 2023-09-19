@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <ul class="nav justify-content-center border-top border-bottom pb-3 mb-3">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
           <Link class="nav-link" to='/' title='Home'>
             <i class='bx bx-home-alt bx-sm' ></i>
