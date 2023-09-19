@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 
-function MyProjects({repo, lang, link, date}) {
+function MyProjects({ repo, lang, link, date }) {
   return (
 
     <tr>
@@ -40,19 +40,19 @@ export default function Projects() {
               <td title='URL'></td>
               <td title='Date'></td>
             </tr>
-            <MyProjects 
+            <MyProjects
               repo={'VacineRegRepo'}
               lang={'SQL, C#(form)'}
               link={'https://github.com/CodeNameJuJu/VaccineRegRepo'}
               date={'2021/08/27'}
             />
-            <MyProjects 
+            <MyProjects
               repo={'BMICalculator'}
               lang={'SQL, C#(Form)'}
               link={'https://github.com/CodeNameJuJu/BMICalculator'}
               date={'2021/09/04'}
             />
-            <MyProjects 
+            <MyProjects
               repo={'PRG522_Summative'}
               lang={'C#(MVC)'}
               link={'https://github.com/CodeNameJuJu/PRG522_Summative'}

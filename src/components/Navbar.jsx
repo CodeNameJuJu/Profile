@@ -1,6 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+function Navigate({ icon, path }) {
+  return (
+
+    <li class="nav-item">
+      <Link class="nav-link" to={path} title='Home'>
+        <i class={icon} ></i>
+      </Link>
+    </li>
+
+  );
+}
+
 export default function Navbar() {
 
   return (
@@ -15,21 +27,18 @@ export default function Navbar() {
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <Link class="nav-link" to='/' title='Home'>
-                  <i class='bx bx-home-alt bx-sm' ></i>
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link" to='/projects' title='Projects' >
-                  <i class='bx bx-folder-open bx-sm' ></i>
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link" to='/contact' title='Contact' >
-                  <i class='bx bx-envelope bx-sm' ></i>
-                </Link>
-              </li>
+              <Navigate
+                icon={'bx bx-home-alt bx-sm'}
+                path={'/'}
+              />
+              <Navigate
+                icon={'bx bx-folder-open bx-sm'}
+                path={'/projects'}
+              />
+              <Navigate
+                icon={'bx bx-envelope bx-sm'}
+                path={'/contact'}
+              />
             </ul>
           </div>
         </div>

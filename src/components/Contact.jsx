@@ -2,6 +2,18 @@ import React, { useRef } from 'react';
 import './Main.css';
 import emailjs from '@emailjs/browser';
 
+function Form({ type, name, place }) {
+  return (
+
+    <div className="mb-3 pt-0">
+      <input type={type} name={name} placeholder={place}
+        className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+      />
+    </div>
+
+  );
+}
+
 export const Contact = () => {
   const form = useRef();
 
@@ -48,16 +60,17 @@ export const Contact = () => {
         <div className="row center-again">
           <div className="center-again">
             <form ref={form} onSubmit={sendEmail}>
-              <div className="mb-3 pt-0">
-                <input type="text" name="user_name" placeholder="Your Name"
-                  className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-                />
-              </div>
-              <div className="mb-3 pt-0">
-                <input type="email" name="user_email" placeholder="Your email address"
-                  className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-                />
-              </div>
+              <Form
+                type={"text"}
+                name={"user_name"}
+                place={"Your Name"}
+
+              />
+              <Form
+                type={"email"}
+                name={"user_email"}
+                place={"Your email address"}
+              />
               <div className="mb-3 pt-0">
                 <textarea name="message" placeholder="Your message"
                   className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
