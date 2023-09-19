@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, #417ee7, #23bad5, #37c087, #53dd5f);
+	background: linear-gradient(-45deg, #6b4ae2, #4441e7, #417ee7, #23bad5 );
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
@@ -37,16 +37,29 @@ body {
 }
 
 .image-pic {
-	position: relative;
-	bottom: 30px;
-	right: 30px;
 	height: 175px;
 	width: 130px;
+}
 
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.caption {
+    display: block;
 }
 
 .image-screen {
-	height: 750px;
+	border-radius: 25px;
+	height: 1150px;
+	width: 105%
 }
 
 .background-body {
