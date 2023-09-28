@@ -14,6 +14,7 @@ function Form({ type, name, place }) {
   );
 }
 
+//Testing env variables
 export const Contact = () => {
   const form = useRef();
 
