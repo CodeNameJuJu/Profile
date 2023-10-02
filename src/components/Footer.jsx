@@ -26,6 +26,54 @@ class CertComponent extends React.Component {
   }
 }
 
+class SqlBasic extends React.Component {
+  render() {
+    return (
+      <DownloadLink src='SQLB.pdf' target="_blank">Download Certificate</DownloadLink>
+    )
+  }
+}
+
+class SqlInter extends React.Component {
+  render() {
+    return (
+      <DownloadLink src='SQLI.pdf' target="_blank">Download Certificate</DownloadLink>
+    )
+  }
+}
+
+class SqlAdvanced extends React.Component {
+  render() {
+    return (
+      <DownloadLink src='SQLA.pdf' target="_blank">Download Certificate</DownloadLink>
+    )
+  }
+}
+
+class RWD extends React.Component {
+  render() {
+    return (
+      <DownloadLink src='RWD.pdf' target="_blank">Download Certificate</DownloadLink>
+    )
+  }
+}
+
+class FEL extends React.Component {
+  render() {
+    return (
+      <DownloadLink src='FEL.pdf' target="_blank">Download Certificate</DownloadLink>
+    )
+  }
+}
+
+class JSAlgorithms extends React.Component {
+  render() {
+    return (
+      <DownloadLink src='JSA.pdf' target="_blank">Download Certificate</DownloadLink>
+    )
+  }
+}
+
 function Navigate({ icon, path }) {
   return (
 
@@ -59,6 +107,12 @@ export default function Footer() {
             <div class="modal-body">
               <p><strong>Curriculum Vitae:</strong> <CVComponent /></p>
               <p><strong>Qualification:</strong> <CertComponent /></p>
+              <p><strong>Sql Basic Cert:</strong> <SqlBasic /></p>
+              <p><strong>Sql intermediate Cert:</strong> <SqlInter /></p>
+              <p><strong>Sql Advanced Cert:</strong> <SqlAdvanced /></p>
+              <p><strong>Front-end Libraries Cert:</strong> <RWD /></p>
+              <p><strong>Responsive Web Design cert:</strong> <FEL /></p>
+              <p><strong>JS Algorithms and Data Structures Cert:</strong> <JSAlgorithms /></p>
             </div>
 
             <div class="modal-footer">
